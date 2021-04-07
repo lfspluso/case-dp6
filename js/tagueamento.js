@@ -25,7 +25,6 @@
   	document.querySelector('.card-montadoras:nth-child(3)').addEventListener('click', ()=>{
 		ga('send', 'event', 'analise', 'ver_mais', 'Dolor');
 	});
-	document.querySelector('.menu-lista-contato').addEventListener('click', 
 	
 	//CAMPOS DO FORM PREENCHIDOS
 	document.getElementById('nome').addEventListener('change', ()=>{
