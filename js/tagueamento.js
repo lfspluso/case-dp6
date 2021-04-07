@@ -29,7 +29,7 @@
 	//CAMPOS DO FORM PREENCHIDOS
 	document.getElementById('nome').addEventListener('change', ()=>{
 		ga('send', 'event', 'contato', 'nome', 'preencheu');
-	});
+	}));
 	document.getElementById('email').addEventListener('change', ()=>{
 		ga('send', 'event', 'contato', 'email', 'preencheu');
 	});
